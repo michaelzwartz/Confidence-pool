@@ -1,5 +1,11 @@
 import pandas as pd
 import numpy as np
+import os.path
+
+out_file = "Week-1-Results.txt"
+
+print("Calculating the scores...")
+
 week1_raw = pd.read_csv("Pool_results.csv")
 
 #function to combine picks and bets
@@ -30,5 +36,7 @@ while i < 42:
             #print(week1['Name'][i], "haha, you suck")
     i = i + 2
 
-
-week1[['Name', 'Score']]
+#print scores in txt file (must be a string, not a df)
+#f=open(out_file, "w+")
+#f.write(week1[['Name', 'Score']])
+#f.close()
