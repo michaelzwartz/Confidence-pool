@@ -18,6 +18,7 @@ def combine(df1):
 
 #function to calculate totals
 def totals(df):
+    
     max_score = 0
     games = len(df.columns)-1
     points = 16
@@ -26,9 +27,11 @@ def totals(df):
         points = points - 1
         games = games - 1
     i = 4  
+    games = len(df.columns)-1
     df['Score'] = 0
     df['Game Count'] = 0
     df['Max Score'] = max_score
+        
     while i < 41:
         for col in df.loc[:, ~df.columns.isin(['Game', 'Score', 'Game Count', 'Max Score'])]:
             if df[col][0] is np.nan:
@@ -42,6 +45,10 @@ def totals(df):
                 df.loc[i, 'Max Score'] = df.loc[i, 'Max Score'] - df.loc[i, col][1]
                
         i = i + 2
+    
+    df['Pick Percentage'] = round(df['Game Count']/games*100, 2)
+    df['Points per win'] = round(df['Score']/df['Game Count'], 2)
+    
     return df
 
 #upset counter
