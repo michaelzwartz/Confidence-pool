@@ -122,3 +122,4 @@ i = 0
 for week in results: 
     results[week] = combine(pd.read_csv(results_csv[i]))
     i = i + 1
+    
