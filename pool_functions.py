@@ -1,4 +1,4 @@
-
+import pandas as pd
 import numpy as np
 
 
@@ -106,3 +106,11 @@ def sum_totals(season_totals, week_stats, week_number_rank):
     season_totals[week_number_rank] = season_totals['Score'].rank(ascending=False, method='min')
 
     return season_totals
+
+
+
+week7_raw = pd.read_csv("week7_results.csv")
+week7 = combine(week7_raw)
+week7_tot = totals(week7)
+week7_stats = week7_tot[['Game', 'Score', 'Game Count', 'Pick Percentage', 'Points per win']][4:]
+print(week7_stats)
