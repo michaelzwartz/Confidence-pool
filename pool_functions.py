@@ -66,7 +66,7 @@ def upset_counter(df):
         if df[col][3] < 0 and df[col][1] == df[col][0]: #if home team is favorite and away team won
             upset_count = upset_count + 1
             dog_spread_tot = dog_spread_tot + -(df[col][3])
-            spread_list.append(df[col][3])
+            spread_list.append(abs(df[col][3]))
             #print('Road upset alert ', df[col][0], "spread ", -(df[col][3]))
             if abs(df[col][3]) > 6.5:
                 big_dog_count = big_dog_count + 1
