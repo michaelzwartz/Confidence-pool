@@ -61,10 +61,12 @@ def upset_counter(df):
     tie_count = 0
     dog_spread_tot = 0
     big_dog_count = 0
+    spread_list = []
     for col in df.loc[:, ~df.columns.isin(['Player', 'Score', 'Max Score'])]:
         if df[col][3] < 0 and df[col][1] == df[col][0]: #if home team is favorite and away team won
             upset_count = upset_count + 1
             dog_spread_tot = dog_spread_tot + -(df[col][3])
+            spread_list.append(df[col][3])
             #print('Road upset alert ', df[col][0], "spread ", -(df[col][3]))
             if abs(df[col][3]) > 6.5:
                 big_dog_count = big_dog_count + 1
@@ -72,6 +74,7 @@ def upset_counter(df):
         elif df[col][3] > 0 and df[col][2][0] == df[col][0]: #if away team is favorite and home team won
             upset_count = upset_count + 1
             dog_spread_tot = dog_spread_tot + df[col][3]
+            spread_list.append(df[col][3])
             #print('Home dog win ', df[col][2])
             if abs(df[col][3]) > 6.5:
                 big_dog_count = big_dog_count + 1
@@ -84,7 +87,7 @@ def upset_counter(df):
     
     dog_spread_avg = round(dog_spread_tot/upset_count, 2)
     print("Total of ", upset_count, "upsets this week. With ", big_dog_count, "being big dogs." )
-    return upset_count, dog_spread_avg, big_dog_count #fav_count, tie_count
+    return upset_count, spread_list #dog_spread_avg, big_dog_count fav_count, tie_count
 
 
 #finds avg points per win for league
