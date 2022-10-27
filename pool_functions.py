@@ -65,20 +65,20 @@ def upset_counter(df):
         if df[col][3] < 0 and df[col][1] == df[col][0]: #if home team is favorite and away team won
             upset_count = upset_count + 1
             dog_spread_tot = dog_spread_tot + -(df[col][3])
-            print('Road upset alert ', df[col][0], "spread ", -(df[col][3]))
+            #print('Road upset alert ', df[col][0], "spread ", -(df[col][3]))
             if abs(df[col][3]) > 6.5:
                 big_dog_count = big_dog_count + 1
-                print("big dog woof woof")
+                #print("big dog woof woof")
         elif df[col][3] > 0 and df[col][2][0] == df[col][0]: #if away team is favorite and home team won
             upset_count = upset_count + 1
             dog_spread_tot = dog_spread_tot + df[col][3]
-            print('Home dog win ', df[col][2])
+            #print('Home dog win ', df[col][2])
             if abs(df[col][3]) > 6.5:
                 big_dog_count = big_dog_count + 1
-                print("big dog woof woof")
+                #print("big dog woof woof")
         elif df[col][0] == "TIE":
             tie_count = tie_count + 1
-            print("A friggen tie...  ", df[col][2])
+            #print("A friggen tie...  ", df[col][2])
         else:
             fav_count = fav_count + 1
     
@@ -86,14 +86,6 @@ def upset_counter(df):
     print("Total of ", upset_count, "upsets this week. With ", big_dog_count, "being big dogs." )
     return upset_count, dog_spread_avg, big_dog_count #fav_count, tie_count
 
-#number of total picks for league
-def week_pick_percent(week_raw, week_game_total):
-    games = len(week_raw.axes[1])-(week_raw.iloc[0].isna().sum() + 1)
-    enteries = (len(week_raw.axes[0])-4)/2
-    total_picks = games * enteries
-    pick_percent = round(week_game_total/total_picks*100, 2)
-    
-    return pick_percent 
 
 #finds avg points per win for league
 def points_per_win (df):
