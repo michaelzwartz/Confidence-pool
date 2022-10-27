@@ -8,7 +8,7 @@ def combine(df1):
     rows = my_file.shape[0]
     i = 2 
     while i < rows:
-        for col in my_file.loc[:, my_file.columns != 'Game']:
+        for col in my_file.loc[:, my_file.columns != 'Player']:
             my_file[col][i+1] = float(my_file[col][i+1])
             my_file[col][i] = [my_file[col][i], my_file[col][i+1]]
         i = i+2
@@ -33,7 +33,7 @@ def totals(df):
     df['Max Score'] = max_score
         
     while i < 41:
-        for col in df.loc[:, ~df.columns.isin(['Game', 'Score', 'Game Count', 'Max Score'])]:
+        for col in df.loc[:, ~df.columns.isin(['Player', 'Score', 'Game Count', 'Max Score'])]:
             if df[col][0] is np.nan:
                 break
             
@@ -49,8 +49,8 @@ def totals(df):
     df['Pick Percentage'] = round(df['Game Count']/games*100, 2)
     df['Points per win'] = round(df['Score']/df['Game Count'], 2)
 
-    df1 = df[['Game', 'Score', 'Game Count', 'Max Score', 'Pick Percentage', 'Points per win']][4:]
-    df1.set_index('Game', inplace=True)
+    df1 = df[['Player', 'Score', 'Game Count', 'Max Score', 'Pick Percentage', 'Points per win']][4:]
+    df1.set_index('Player', inplace=True)
     
     return df1
 
@@ -61,7 +61,7 @@ def upset_counter(df):
     tie_count = 0
     dog_spread_tot = 0
     big_dog_count = 0
-    for col in df.loc[:, ~df.columns.isin(['Game', 'Score', 'Max Score'])]:
+    for col in df.loc[:, ~df.columns.isin(['Player', 'Score', 'Max Score'])]:
         if df[col][3] < 0 and df[col][1] == df[col][0]: #if home team is favorite and away team won
             upset_count = upset_count + 1
             dog_spread_tot = dog_spread_tot + -(df[col][3])
