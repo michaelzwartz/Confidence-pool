@@ -49,7 +49,7 @@ def totals(df):
     df['Pick Percentage'] = round(df['Game Count']/games*100, 2)
     df['Points per win'] = round(df['Score']/df['Game Count'], 2)
 
-    df1 = df[['Game', 'Score', 'Game Count', 'Pick Percentage', 'Points per win']][4:]
+    df1 = df[['Game', 'Score', 'Game Count', 'Max Score', 'Pick Percentage', 'Points per win']][4:]
     df1.set_index('Game', inplace=True)
     
     return df1
