@@ -110,16 +110,4 @@ def sum_totals(season_totals, week_stats, week_number_rank):
 
     return season_totals
 
-#create list of result files
-results_csv = ['week1_results.csv', 'week2_results.csv', 'week3_results.csv', 'week4_results.csv',
- 'week5_results.csv', 'week6_results.csv', 'week7_results.csv']
 
-#create results dictionary 
-results = {'week1': 1, 'week2': 2, 'week3': 3, 'week4': 4, 'week5': 5, 'week6': 6, 'week7': 7}
-
-#read results files and add them to results dictionary
-i = 0
-for week in results: 
-    results[week] = combine(pd.read_csv(results_csv[i]))
-    i = i + 1
-    
