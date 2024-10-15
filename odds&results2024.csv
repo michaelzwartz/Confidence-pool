@@ -1,0 +1,93 @@
+game,nfl_week,day,date,time(et),home_team,home_spread,away_team,home_score,away_score,over_under
+101,1,Thu,9/5/2024,8:20:00 AM,Kansas City Chiefs,-3,Baltimore Ravens,27,20,46
+102,1,Fri,9/6/2024,8:15:00 AM,Philadelphia Eagles,-1.5,Green Bay Packers,34,29,49.5
+103,1,Sun,9/8/2024,1:00:00 AM,Atlanta Falcons,-4,Pittsburgh Steelers,10,18,43
+104,1,Sun,9/8/2024,1:00:00 AM,Buffalo Bills,-6.5,Arizona Cardinals,34,28,46
+105,1,Sun,9/8/2024,1:00:00 AM,Chicago Bears,-4,Tennessee Titans,24,17,43
+106,1,Sun,9/8/2024,1:00:00 AM,Cincinnati Bengals,-7.5,New England Patriots,10,16,40.5
+107,1,Sun,9/8/2024,1:00:00 AM,Indianapolis Colts,3,Houston Texans,27,29,48
+108,1,Sun,9/8/2024,1:00:00 AM,Miami Dolphins,-3.5,Jacksonville Jaguars,20,17,49.5
+109,1,Sun,9/8/2024,1:00:00 AM,New Orleans Saints,-3.5,Carolina Panthers,47,10,41.5
+110,1,Sun,9/8/2024,1:00:00 AM,New York Giants,1,Minnesota Vikings,6,28,42
+111,1,Sun,9/8/2024,4:05:00 AM,Los Angeles Chargers,-3,Las Vegas Raiders,22,10,40.5
+112,1,Sun,9/8/2024,4:05:00 AM,Seattle Seahawks,-6.5,Denver Broncos,26,20,42.5
+113,1,Sun,9/8/2024,4:25:00 AM,Cleveland Browns,-2,Dallas Cowboys,17,33,42
+114,1,Sun,9/8/2024,4:25:00 AM,Tampa Bay Buccaneers,-4,Washington Commanders,37,20,42.5
+115,1,Sun,9/8/2024,8:20:00 AM,Detroit Lions,-5.5,Los Angeles Rams,26,20,53.5
+116,1,Mon,9/9/2024,8:15:00 AM,San Francisco 49ers,-3.5,New York Jets,32,19,43
+201,2,Thu,9/12/2024,8:20:00 AM,Miami Dolphins,-2.5,Buffalo Bills,10,31,49
+202,2,Sun,9/15/2024,1:00:00 AM,Baltimore Ravens,-8.5,Las Vegas Raiders,23,26,42.5
+203,2,Sun,9/15/2024,1:00:00 AM,Carolina Panthers,4.5,Los Angeles Chargers,3,26,38.5
+204,2,Sun,9/15/2024,1:00:00 AM,Dallas Cowboys,-6.5,New Orleans Saints,19,44,47
+205,2,Sun,9/15/2024,1:00:00 AM,Detroit Lions,-7.5,Tampa Bay Buccaneers,16,20,51.5
+206,2,Sun,9/15/2024,1:00:00 AM,Green Bay Packers,2.5,Indianapolis Colts,16,10,41.5
+207,2,Sun,9/15/2024,1:00:00 AM,Jacksonville Jaguars,-3,Cleveland Browns,13,18,41
+208,2,Sun,9/15/2024,1:00:00 AM,Minnesota Vikings,4,San Francisco 49ers,23,17,46.5
+209,2,Sun,9/15/2024,1:00:00 AM,New England Patriots,3,Seattle Seahawks,20,23,39
+210,2,Sun,9/15/2024,1:00:00 AM,Tennessee Titans,3.5,New York Jets,17,24,41
+211,2,Sun,9/15/2024,1:00:00 AM,Washington Commanders,-1.5,New York Giants,21,18,43
+212,2,Sun,9/15/2024,4:05:00 AM,Arizona Cardinals,-1,Los Angeles Rams,41,10,47.5
+213,2,Sun,9/15/2024,4:25:00 AM,Denver Broncos,2.5,Pittsburgh Steelers,6,13,36.5
+214,2,Sun,9/15/2024,4:25:00 AM,Kansas City Chiefs,-6.5,Cincinnati Bengals,26,25,47.5
+215,2,Sun,9/15/2024,8:20:00 AM,Houston Texans,-6.5,Chicago Bears,19,13,45.5
+216,2,Mon,9/16/2024,8:15:00 AM,Philadelphia Eagles,-5.5,Atlanta Falcons,21,22,46.5
+301,3,Thu,9/19/2024,8:20:00 AM,New York Jets,-6.5,New England Patriots,24,3,39.5
+302,3,Sun,9/22/2024,1:00:00 AM,Cleveland Browns,-6.5,New York Giants,15,21,38
+303,3,Sun,9/22/2024,1:00:00 AM,Indianapolis Colts,-2,Chicago Bears,21,16,43.5
+304,3,Sun,9/22/2024,1:00:00 AM,Minnesota Vikings,1.5,Houston Texans,34,7,46.5
+305,3,Sun,9/22/2024,1:00:00 AM,New Orleans Saints,-2.5,Philadelphia Eagles,12,15,49
+306,3,Sun,9/22/2024,1:00:00 AM,Pittsburgh Steelers,-2.5,Los Angeles Chargers,20,10,36
+307,3,Sun,9/22/2024,1:00:00 AM,Tampa Bay Buccaneers,-6,Denver Broncos,7,26,40.5
+308,3,Sun,9/22/2024,1:00:00 AM,Tennessee Titans,-3,Green Bay Packers,14,30,37
+309,3,Sun,9/22/2024,4:05:00 AM,Las Vegas Raiders,-5.5,Carolina Panthers,22,36,40
+310,3,Sun,9/22/2024,4:05:00 AM,Seattle Seahawks,-4,Miami Dolphins,24,3,41.5
+311,3,Sun,9/22/2024,4:25:00 AM,Arizona Cardinals,3,Detroit Lions,13,20,51.5
+312,3,Sun,9/22/2024,4:25:00 AM,Dallas Cowboys,1.5,Baltimore Ravens,25,28,47.5
+313,3,Sun,9/22/2024,4:25:00 AM,Los Angeles Rams,6,San Francisco 49ers,27,24,44.5
+314,3,Sun,9/22/2024,8:20:00 AM,Atlanta Falcons,3,Kansas City Chiefs,17,22,46.5
+315,3,Mon,9/23/2024,7:30:00 AM,Buffalo Bills,-4.5,Jacksonville Jaguars,47,10,46.5
+316,3,Mon,9/23/2024,8:15:00 AM,Cincinnati Bengals,-7.5,Washington Commanders,33,38,46.5
+401,4,Thu,9/26/2024,8:20:00 AM,New York Giants,5.5,Dallas Cowboys,15,20,45
+402,4,Sun,9/29/2024,1:00:00 AM,Atlanta Falcons,-2.5,New Orleans Saints,26,24,42.5
+403,4,Sun,9/29/2024,1:00:00 AM,Carolina Panthers,5.5,Cincinnati Bengals,24,34,46.5
+404,4,Sun,9/29/2024,1:00:00 AM,Chicago Bears,-3,Los Angeles Rams,24,18,40.5
+405,4,Sun,9/29/2024,1:00:00 AM,Green Bay Packers,-2.5,Minnesota Vikings,29,31,44
+406,4,Sun,9/29/2024,1:00:00 AM,Houston Texans,-5.5,Jacksonville Jaguars,24,20,44.5
+407,4,Sun,9/29/2024,1:00:00 AM,Indianapolis Colts,2.5,Pittsburgh Steelers,27,24,41
+408,4,Sun,9/29/2024,1:00:00 AM,New York Jets,-8,Denver Broncos,9,10,39.5
+409,4,Sun,9/29/2024,1:00:00 AM,Tampa Bay Buccaneers,1,Philadelphia Eagles,33,16,42.5
+410,4,Sun,9/29/2024,4:05:00 AM,Arizona Cardinals,-3.5,Washington Commanders,14,42,48.5
+411,4,Sun,9/29/2024,4:05:00 AM,San Francisco 49ers,-10.5,New England Patriots,30,13,42
+412,4,Sun,9/29/2024,4:25:00 AM,Las Vegas Raiders,2.5,Cleveland Browns,20,16,37
+413,4,Sun,9/29/2024,4:25:00 AM,Los Angeles Chargers,7,Kansas City Chiefs,10,17,41.5
+414,4,Sun,9/29/2024,8:20:00 AM,Baltimore Ravens,-2.5,Buffalo Bills,35,10,47.5
+415,4,Mon,9/30/2024,7:30:00 AM,Miami Dolphins,-2.5,Tennessee Titans,12,31,37.5
+416,4,Mon,9/30/2024,8:15:00 AM,Detroit Lions,-4.5,Seattle Seahawks,42,29,47
+501,5,Thu,10/3/2024,8:20:00 AM,Atlanta Falcons,-2.5,Tampa Bay Buccaneers,36,30,44
+502,5,Sun,10/6/2024,9:30:00 AM,New York Jets,2.5,Minnesota Vikings,17,23,42
+503,5,Sun,10/6/2024,1:00:00 AM,Chicago Bears,-4,Carolina Panthers,36,10,40
+504,5,Sun,10/6/2024,1:00:00 AM,Cincinnati Bengals,2.5,Baltimore Ravens,38,41,48.5
+505,5,Sun,10/6/2024,1:00:00 AM,Houston Texans,-1.5,Buffalo Bills,23,20,48
+506,5,Sun,10/6/2024,1:00:00 AM,Jacksonville Jaguars,-3.5,Indianapolis Colts,37,34,44.5
+507,5,Sun,10/6/2024,1:00:00 AM,New England Patriots,2,Miami Dolphins,10,15,37
+508,5,Sun,10/6/2024,1:00:00 AM,Washington Commanders,-3,Cleveland Browns,34,13,43.5
+509,5,Sun,10/6/2024,4:05:00 AM,Denver Broncos,-3,Las Vegas Raiders,34,18,36
+510,5,Sun,10/6/2024,4:05:00 AM,San Francisco 49ers,-7.5,Arizona Cardinals,23,24,49
+511,5,Sun,10/6/2024,4:25:00 AM,Los Angeles Rams,3,Green Bay Packers,19,24,49.5
+512,5,Sun,10/6/2024,4:25:00 AM,Seattle Seahawks,-7,New York Giants,20,29,42.5
+513,5,Sun,10/6/2024,9:45:00 AM,Pittsburgh Steelers,-2.5,Dallas Cowboys,17,20,44
+514,5,Mon,10/7/2024,8:20:00 AM,Kansas City Chiefs,-5,New Orleans Saints,26,13,43
+601,6,Thu,10/10/2024,8:20:00 AM,Seattle Seahawks,3.5,San Francisco 49ers,24,36,
+602,6,Sun,10/13/2024,9:30:00 AM,Chicago Bears,-2.5,Jacksonville Jaguars,16,35,
+603,6,Sun,10/13/2024,,New England Patriots,7,Houston Texans,21,41,
+604,6,Sun,10/13/2024,,Baltimore Ravens,-6.5,Washington Commanders,30,23,
+605,6,Sun,10/13/2024,,Philadelphia Eagles,-8.5,Cleveland Browns,20,16,
+606,6,Sun,10/13/2024,,Green Bay Packers,-5.5,Arizona Cardinals,34,13,
+607,6,Sun,10/13/2024,,Tennessee Titans,1,Indianapolis Colts,17,20,
+608,6,Sun,10/13/2024,,New Orleans Saints,3.5,Tampa Bay Buccaneers,27,51,
+609,6,Sun,10/13/2024,,Denver Broncos,3,Los Angeles Chargers,16,23,
+610,6,Sun,10/13/2024,,Las Vegas Raiders,3,Pittsburgh Steelers,13,32,
+611,6,Sun,10/13/2024,,Dallas Cowboys,3.5,Detroit Lions,9,47,
+612,6,Sun,10/13/2024,,Carolina Panthers,5.5,Atlanta Falcons,20,38,
+613,6,Sun,10/13/2024,,New York Giants,3.5,Cincinnati Bengals,7,17,
+614,6,Mon,10/14/2024,,New York Jets,2.5,Buffalo Bills,20,23,
