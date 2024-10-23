@@ -77,17 +77,32 @@ game,nfl_week,day,date,time(et),home_team,home_spread,away_team,home_score,away_
 512,5,Sun,10/6/2024,4:25:00 AM,Seattle Seahawks,-7,New York Giants,20,29,42.5
 513,5,Sun,10/6/2024,9:45:00 AM,Pittsburgh Steelers,-2.5,Dallas Cowboys,17,20,44
 514,5,Mon,10/7/2024,8:20:00 AM,Kansas City Chiefs,-5,New Orleans Saints,26,13,43
-601,6,Thu,10/10/2024,8:20:00 AM,Seattle Seahawks,3.5,San Francisco 49ers,24,36,
-602,6,Sun,10/13/2024,9:30:00 AM,Chicago Bears,-2.5,Jacksonville Jaguars,35,16,
-603,6,Sun,10/13/2024,,New England Patriots,7,Houston Texans,21,41,
-604,6,Sun,10/13/2024,,Baltimore Ravens,-6.5,Washington Commanders,30,23,
-605,6,Sun,10/13/2024,,Philadelphia Eagles,-8.5,Cleveland Browns,20,16,
-606,6,Sun,10/13/2024,,Green Bay Packers,-5.5,Arizona Cardinals,34,13,
-607,6,Sun,10/13/2024,,Tennessee Titans,1,Indianapolis Colts,17,20,
-608,6,Sun,10/13/2024,,New Orleans Saints,3.5,Tampa Bay Buccaneers,27,51,
-609,6,Sun,10/13/2024,,Denver Broncos,3,Los Angeles Chargers,16,23,
-610,6,Sun,10/13/2024,,Las Vegas Raiders,3,Pittsburgh Steelers,13,32,
-611,6,Sun,10/13/2024,,Dallas Cowboys,3.5,Detroit Lions,9,47,
-612,6,Sun,10/13/2024,,Carolina Panthers,5.5,Atlanta Falcons,20,38,
-613,6,Sun,10/13/2024,,New York Giants,3.5,Cincinnati Bengals,7,17,
-614,6,Mon,10/14/2024,,New York Jets,2.5,Buffalo Bills,20,23,
+601,6,Thu,10/10/2024,8:20:00 AM,Seattle Seahawks,3.5,San Francisco 49ers,24,36,48.5
+602,6,Sun,10/13/2024,9:30:00 AM,Chicago Bears,-2.5,Jacksonville Jaguars,35,16,44.5
+603,6,Sun,10/13/2024,1:00:00 AM,New England Patriots,7,Houston Texans,21,41,39.5
+604,6,Sun,10/13/2024,1:00:00 AM,Baltimore Ravens,-6.5,Washington Commanders,30,23,50.5
+605,6,Sun,10/13/2024,1:00:00 AM,Philadelphia Eagles,-8.5,Cleveland Browns,20,16,42
+606,6,Sun,10/13/2024,1:00:00 AM,Green Bay Packers,-5.5,Arizona Cardinals,34,13,47
+607,6,Sun,10/13/2024,1:00:00 AM,Tennessee Titans,1,Indianapolis Colts,17,20,41.5
+608,6,Sun,10/13/2024,1:00:00 AM,New Orleans Saints,3.5,Tampa Bay Buccaneers,27,51,42.5
+609,6,Sun,10/13/2024,4:05:00 AM,Denver Broncos,3,Los Angeles Chargers,16,23,37.5
+610,6,Sun,10/13/2024,4:05:00 AM,Las Vegas Raiders,3,Pittsburgh Steelers,13,32,37
+611,6,Sun,10/13/2024,4:25:00 AM,Dallas Cowboys,3.5,Detroit Lions,9,47,53.5
+612,6,Sun,10/13/2024,4:25:00 AM,Carolina Panthers,5.5,Atlanta Falcons,20,38,45.5
+613,6,Sun,10/13/2024,8:20:00 AM,New York Giants,3.5,Cincinnati Bengals,7,17,46
+614,6,Mon,10/14/2024,8:15:00 AM,New York Jets,2.5,Buffalo Bills,20,23,42
+701,7,Thu,10/17/2024,8:20,New Orleans Saints,2.5,Denver Broncos,10,33,37
+702,7,Sun,10/20/2024,9:30,Jacksonville Jaguars,-7,New England Patriots,32,16,41.5
+703,7,Sun,10/20/2024,1:00,Atlanta Falcons,-3,Seattle Seahawks,14,34,51.5
+704,7,Sun,10/20/2024,1:00,Buffalo Bills,-9.5,Tennessee Titans,34,10,41
+705,7,Sun,10/20/2024,1:00,Cleveland Browns,5.5,Cincinnati Bengals,14,21,42.5
+706,7,Sun,10/20/2024,1:00,Green Bay Packers,-3,Houston Texans,24,22,47.5
+707,7,Sun,10/20/2024,1:00,Indianapolis Colts,-3,Miami Dolphins,16,10,44
+708,7,Sun,10/20/2024,1:00,Minnesota Vikings,-1.5,Detroit Lions,29,31,50
+709,7,Sun,10/20/2024,1:00,New York Giants,3,Philadelphia Eagles,3,28,41.5
+710,7,Sun,10/20/2024,4:05,Los Angeles Rams,-7,Las Vegas Raiders,20,15,43.5
+711,7,Sun,10/20/2024,4:05,Washington Commanders,-10,Carolina Panthers,40,7,51
+712,7,Sun,10/20/2024,4:25,San Francisco 49ers,-2.5,Kansas City Chiefs,18,28,48
+713,7,Sun,10/20/2024,8:20,Pittsburgh Steelers,2.5,New York Jets,37,15,40
+714,7,Mon,10/21/2024,8:15,Tampa Bay Buccaneers,4.5,Baltimore Ravens,31,41,51
+715,7,Mon,10/21/2024,9:00,Arizona Cardinals,1,Los Angeles Chargers,17,15,44.5
